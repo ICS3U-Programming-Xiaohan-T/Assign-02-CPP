@@ -32,6 +32,7 @@ int main() {
     surfaceArea = frontBackArea + (shortBase * length) + (longBase * length)
     + (leftSideLength * length) + (rightSideLength * length);
     std::cout << std::fixed << std::setprecision(2);
-    std::cout << CYAN << "Surface Area: " << surfaceArea << " cm^2" << std::endl;
+    std::cout << CYAN << "Surface Area: " << surfaceArea << " cm^2"
+    << std::endl;
     std::cout << CYAN << "Volume: " << volume << " cm^3" << std::endl;
 }
